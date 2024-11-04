@@ -84,6 +84,7 @@
 ---
 ![метод store контроллера](storage/app/private/img/7_0.png "метод store контроллера")
 
+
 ---
 ![метод store контроллера](storage/app/private/img/7_1.png "метод store контроллера")
 
