@@ -54,9 +54,27 @@
 
 Чтобы в базе данных появились соответствующие поля, не забудьте повторно запустить миграции в базе данных, воспользовавшись соответствующей командой artisan.
 
+---
+![model Book description](storage/app/private/img/4_2.png "model Book description")
+![model Book description](storage/app/private/img/4_3.png "model Book description")
+![model Book description](storage/app/private/img/4_4.png "model Book description")
+
+---
+
 ### 5. Внутри файла /routes/web.php опишите новый роут (метод GET), который будет вызывать метод index контроллера BookController по url /index. Также добавьте роут с методом POST, который будет вызывать метод store того же контроллера BookController с url** /store**
 
+---
+![routes](storage/app/private/img/5_0.png "routes")
+
+---
+
 ### 6. Опишите метод index внутри контроллера BookController. Метод должен возвращать представление формы в браузере.
+
+---
+![метод index контроллера BookController](storage/app/private/img/6_0.png "метод index контроллера BookController")
+![метод index контроллера BookController](storage/app/private/img/6_1.png "метод index контроллера BookController")
+
+---
 
 ### 7. Опишите метод store(). Прежде чем сохранить данные внутри модели, проведите валидацию с помощью метода $request->validate(). Правила для валидации:
    — все поля обязательны к заполнению, без пустых строк и пробелов в качестве единственного значения;
@@ -67,6 +85,9 @@
 ![метод store контроллера](storage/app/private/img/7_0.png "метод store контроллера")
 
 ---
+![метод store контроллера](storage/app/private/img/7_1.png "метод store контроллера")
+
+---
 
 ### 8. Добавьте обработку ошибок при некорректной валидации.
 
@@ -74,4 +95,11 @@
 ![обработка ошибок](storage/app/private/img/8_0.png "обработка ошибок")
 
 ---
+![обработка ошибок](storage/app/private/img/8_1.png "обработка ошибок")
+![обработка ошибок](storage/app/private/img/8_2.png "обработка ошибок")
+![обработка ошибок](storage/app/private/img/8_3.png "обработка ошибок")
+![обработка ошибок](storage/app/private/img/8_4.png "обработка ошибок")
+![обработка ошибок](storage/app/private/img/8_5.png "обработка ошибок")
+![обработка ошибок](storage/app/private/img/8_6.png "обработка ошибок")
 
+---
